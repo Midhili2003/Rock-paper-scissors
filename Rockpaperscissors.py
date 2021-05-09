@@ -38,8 +38,8 @@ while True:
     else:
         print("----Compter wins-----")
     print("Would u like to play again?(Yes/No)")
-    ans = input()
-    if ans == 'No' or ans == 'NO':
+    ans = input("Would u like to play again?(Yes/No):")
+    if ans.upper() == 'NO':
         break
 print("\nThanks for playing")
         
